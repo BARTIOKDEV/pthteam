@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soon | Profesjonalna strona</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- YouTube Background -->
+<div class="video-background" id="video-background">
+  <iframe src="https://www.youtube.com/embed/iLEhGbFrBdU?autoplay=1&mute=1&loop=1&playlist=iLEhGbFrBdU&controls=0&showinfo=0&modestbranding=1&rel=0"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Content -->
+<div class="overlay">
+  <h1>Soon 👀</h1>
+  <p>Nasza strona wystartuje już niedługo!</p>
+  <div class="clock" id="clock">--:--:--</div>
+  <div class="date" id="date">-- -- ----</div>
+  <div class="volume-control">
+    <input type="range" id="volume-control" min="0" max="100" value="50">
+    <span id="volume-value">50%</span>
+  </div>
+</div>
+
+<!-- Skrypty -->
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
